@@ -1,0 +1,15 @@
+
+
+server:
+  # //..optionally, some other properties
+  error:
+    whitelabel:
+      enabled: false
+  # //..optionally, some other properties
+  shutdown: graceful
+spring:
+  application:
+    name: microservice
+  autoconfigure:
+    #
+    # exclude: org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
